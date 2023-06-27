@@ -8,21 +8,42 @@ html, body {
     background-color: #1F2937;
 }
 
+.top-body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.top-right {
+    display: flex;
+}
+
 .navbar {
     padding: 20px;
     display: flex;
     flex: 1;
     justify-content: space-around;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 .navitems {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 25px;
     margin: 0;
     padding-top: 5px;
     font-size: 18px;
+}
+
+.subheader {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .logo {

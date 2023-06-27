@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto';
+}
+
+
+.top {
+    background-color: #1F2937;
+}
+
+.header, .logo {
+    color: #F9FAF8
+}
+
+.subheader, .navitems {
+    color: #E5E7EB;
+}
+
+.button, .call-to-action-container, .action-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+
+}
+
+.quote {
+    font-style: italic;
+}
+
+.footer {
+    background-color: #E5E7EB;
+}

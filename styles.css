@@ -70,6 +70,28 @@ img {
 .our-teachers {
     font-size: 36px;
     font-weight: 1000;
+    text-align: center;
+    margin: 50px;
+}
+
+.teacher {
+    border: 4px solid;
+    border-color: #3882F6;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    max-width: 300px;
 }
 
 .button, .call-to-action-container, .action-button {

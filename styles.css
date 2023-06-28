@@ -6,30 +6,31 @@ html, body {
 
 .top {
     background-color: #1F2937;
-}
-
-.top-body {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.top-left, .top-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 .top-left {
-    display: flex;
-    flex-direction: column;
     max-width: 500px;
 }
 
 .top-right {
-    display: flex;
+    max-width: 500px;
+    flex-shrink: 4;
 }
 
-.navbar {
-    padding: 20px;
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    padding-bottom: 90px;
+img {
+    width: 100%;
+    border-radius: 5%;
 }
 
 .navitems {
@@ -39,6 +40,7 @@ html, body {
     margin: 0;
     padding-top: 5px;
     font-size: 18px;
+    margin-bottom: 80px;
 }
 
 .subheader {
@@ -49,6 +51,7 @@ html, body {
 .logo {
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 80px;
 }
 
 .header {
@@ -75,11 +78,10 @@ html, body {
 }
 
 .button, .action-button {
+    width: 95px;
     font-weight: 600;
     border-radius: 5px;
     padding: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .button {

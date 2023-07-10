@@ -8,8 +8,11 @@ html, body {
     background-color: #1F2937;
     display: flex;
     flex: 1;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 1vw;
+    padding-left: 5vw;
+    padding-right: 2vw;
 }
 
 img {
@@ -91,10 +94,12 @@ img {
     justify-content: center;
     gap: 50px;
     margin-bottom: 150px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .card {
-    max-width: 200px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     flex: 1;
